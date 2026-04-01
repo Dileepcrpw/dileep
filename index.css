@@ -20,3 +20,40 @@ body {
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 	background: #fff;
 }
+
+.segment-wrapper {
+	padding: 20px;
+	background: #ffffff;
+	border-radius: 12px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.segment-group {
+	display: inline-flex;
+	border: 1px solid #d1d5db;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.segment-button {
+	padding: 10px 14px;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	background: #ffffff;
+}
+
+.segment-button:hover {
+	background: #f3f4f6;
+}
+
+.segment-button:focus-visible {
+	outline: 2px solid #9ca3af;
+	outline-offset: -2px;
+}
+
+.segment-button.is-active {
+	font-weight: 600;
+	background: #e5e7eb;
+}
